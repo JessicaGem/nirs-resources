@@ -2,6 +2,19 @@
 %% Generate synthetic fNIRS data
 
 %{
+
+If you use this code in you work, please cite it using one of the following : 
+ - Gemignani Jessica, and Judit Gervain (2021) "Comparing different pre-processing routines for infant fNIRS data." Developmental cognitive neuroscience 48: 100943.
+ (https://github.com/JessicaGem/mywebsite/blob/gh-pages/GemignaniGervain2021.pdf) %% in this paper the dataset created here is employed to compare pre-processing routines
+  
+ - Gemignani Jessica (2021) "Classification of fNIRS data with LDA and SVM: a proof-of-concept for application in infant studies" in press in 43rd Annual International Conference of the IEEE Engineering in Medicine and Biology Society
+ (pdf available soon) %% in this paper the dataset created here is employed to compare classifiers
+
+- Gemignani Jessica and Gervain Judit (2021) "A practical guide for synthetic fNIRS data generation", in press in 43rd Annual International Conference of the IEEE Engineering in Medicine and Biology Society
+(pdf available soon) %% this paper describes each simulation step in detail
+
+%}
+%{
 Dependencies: 
 - Brain AnalyzIR Toolbox (https://github.com/huppertt/nirs-toolbox)
 - fixedStimDesign.m function
